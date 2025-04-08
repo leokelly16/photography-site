@@ -12,7 +12,15 @@
 	"pages_build_output_dir": ".vercel/output/static",
 	"observability": {
 		"enabled": true
-	}
+	},
+	"main": "pages/index.tsx",
+	"workers_dev": false,
+	"route": {
+		"pattern": "chaostheory.photography/*",
+		"zone_name": "chaostheory.photography"
+	},
+	
+	
 	/**
 	 * Smart Placement
 	 * Docs: https://developers.cloudflare.com/workers/configuration/smart-placement/#smart-placement
